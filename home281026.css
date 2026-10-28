@@ -302,7 +302,71 @@ body{
     font-weight: 300;
     font-size: 14px;
 }
-
+.header43{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+}
+.header44{
+    width: 1050px;
+    height: 400px;
+    margin: auto;
+}
+.header45{
+    width: 610px;
+    height: 107px;
+    margin: auto;
+}
+.header46{
+    width: 400px;
+    height: 57px;
+    font-size: 40px;
+    font-weight: 700;
+    color:white;
+    margin: auto;
+    text-align: center;
+}
+.header47{
+    width: 400px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color:white;
+    margin: auto;
+    text-align: center;
+}
+.header49{
+    width: 930px;
+    height: 82px;
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+    margin: auto;
+    color:white;
+}
+.header50{
+    width: 210px;
+    height: 82px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+.fa-apple, .fa-google-play, .fa-amazon, .fa-windows{
+    font-size:40px;
+    margin-top: 15px;
+    margin-left: 5px;
+    
+}
+.header51{
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.er1{
+    display: none;
+}
 
 
 
@@ -424,13 +488,13 @@ body{
         flex-direction: column;
         justify-content:start;
         align-items: start;
-        overflow-x:hidden;
         text-align: center;
+        margin-left: -100px;
     }
     .header27{
     border: none;
     .header19{
-        padding-top: 200px;
+        
     }
     .header28{
         display: none;
@@ -458,10 +522,41 @@ body{
     flex-direction: column;
     text-align: center;
   }
+  .header34{
+    width: 350px;
+    height: 200px;
+  }
   .header40{
     width: 200px;
     justify-content: center;
     align-items: center;
+  }
+  .header44{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: space-around;
+    margin-left: -350px;
+  }
+  .header47{
+    width: 300px;
+    height: 150px;
+    font-size: 25px;
+  }
+  
+  .header49{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    color:#252B42;
+    background-color: white;
+    margin-top: 50px;
+  }
+  .header50{
+    background-color: white;
   }
   
 }
