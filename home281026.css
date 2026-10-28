@@ -217,7 +217,9 @@ body{
     font-size: 14px;
     line-height: 1.4;
 }
-
+.header09{
+    display: none;
+}
 .header28 {
     width: 32px;
     height: 32px;
@@ -232,6 +234,83 @@ body{
     height: auto;
     object-fit: contain;
 }
+.header30{
+    width: 1050px;
+    height: 770px;
+    margin: auto;
+}
+.header31{
+    width: 1200px;
+    height: 150px;
+     display: flex;
+    justify-content: center; 
+}
+.header32{
+    width: 600px;
+    height: 107px;
+    color:white; 
+}
+.header33{
+    width: 470px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;  
+}
+.header34{
+    width: 470px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+.header35{
+    width: 749px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:15px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+   background-color: #FFFFFF;
+
+}
+.header40{
+    width: 1050px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.header37{
+    width: 430px;
+    height: 40px;
+    text-align: center;
+}
+.header41{
+    width: 150px;
+    height: 32px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.header42{
+    width: 67px;
+    height: 24px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -245,6 +324,7 @@ body{
     body{
         overflow-x: hidden !important;
         max-width: 500px;
+        width: 100%;
         
     }
     .fa-bars{
@@ -347,10 +427,41 @@ body{
         overflow-x:hidden;
         text-align: center;
     }
+    .header27{
+    border: none;
     .header19{
         padding-top: 200px;
     }
-    .header22{
-      margin-left: -85px;
+    .header28{
+        display: none;
     }
+    .header09{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    } 
+}
+  .header30{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 600px;
+  }
+  .header32{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .header40{
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
